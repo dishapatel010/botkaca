@@ -42,6 +42,6 @@ LOCAL = Local({
     'COMMAND_UPLOAD_AS_DOC' : 'toggle upload anything as document',
     'COMMAND_UPLOAD_AS_ZIP' : 'toggle upload anything as bundled zipfile',
     'COMMAND_SET_TRACKER' : 'set default tracker, sparated by newline',
-    'BLOCK_EMPTY' : "❤️",
-    "BLOCK_FILLED" : " 🖤 "
+    'BLOCK_EMPTY' : "▫️",
+    "BLOCK_FILLED" : "◾️"
 })
