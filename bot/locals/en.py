@@ -2,13 +2,13 @@
 from bot.locals import Local
 
 LOCAL = Local({
-    'WRONG_ROOM' : 'I AM NOT MADE FOR THIS GROUP.\nID : <code>{CHAT_ID}</code>',
-    'WELCOME_MESSAGE' : "YOU DONT HAB PERMISSTION TO USE ME ask @touka19 to use this bot ",
-    'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password @touka19 to use this bot.',
+    'WRONG_ROOM' : 'I AM NOT MADE FOR THIS GROUP ask pass @touka0.\nID : <code>{CHAT_ID}</code>',
+    'WELCOME_MESSAGE' : "YOU DONT HAB PERMISSTION TO USE ME",
+    'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "Checking...",
-    'ARIA2_DOWNLOAD_STATUS' : "Downloading : <code>{name}</code>\n{block} {percentage}\nSize : {total_size}\nDN : {download_speed} / UP : {upload_speed}\nSeeder : {seeder}\nETA : {eta}\nID : <code>{gid}</code>",
+    'ARIA2_DOWNLOAD_STATUS' : "**Downloading : <code>{name}</code>\n{block} {percentage}\nSize : {total_size}\nDN : {download_speed} / UP : {upload_speed}\nSeeder : {seeder}\nETA : {eta}\nID : <code>{gid}</code>\ndon't cancel remdi**",
     'ARIA2_DOWNLOAD_SUCCESS' : 'File downloaded : <code>{name}</code>',
     'ARIA2_DOWNLOAD_CANCELED' : 'Download canceled : <code>{name}</code>',
     'ARIA2_DEAD_LINK' : 'Download auto canceled : <code>{name}</code>\nYour Torrent/Link is Dead.',
