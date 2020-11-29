@@ -3,8 +3,8 @@ from bot.locals import Local
 
 LOCAL = Local({
     'WRONG_ROOM' : 'I AM NOT MADE FOR THIS GROUP.\nID : <code>{CHAT_ID}</code>',
-    'WELCOME_MESSAGE' : "YOU DONT HAB PERMISSTION TO USE ME</a>",
-    'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password.',
+    'WELCOME_MESSAGE' : "YOU DONT HAB PERMISSTION TO USE ME ask @touka19 to use this bot ",
+    'PASS_REQUIRED' : '\n\nUse <code>/{cmd_pass} </code>to enter the password @touka19 to use this bot.',
     'LEECH_LIST_MESSAGE_HEADER' : '<b>Leech Status</b>',
     'LEECH_LIST_FORMAT' : 'Name: <code>{name}</code>\nStatus: {status}\nID: <code>{gid}</code>\n\n',
     'ARIA2_CHECKING_LINK' : "Checking...",
